@@ -1,7 +1,5 @@
 # LinearRegressionModel
 
-## Notebook Summary
-
 This notebook demonstrates a simple linear regression model implemented from scratch to predict salary based on years of experience. The process involves several key steps: loading the dataset, implementing custom cost and gradient functions, and using gradient descent to train the model. 
 
 The notebook begins by downloading the 'Salary_Data.csv' dataset using `kagglehub`. It then loads this data into a pandas DataFrame and extracts 'YearsExperience' as the independent variable (`x_train`) and 'Salary' as the dependent variable (`y_train`). A scatter plot is generated to visualize the relationship between these variables, showing a clear linear trend. The core of the model is built with custom Python functions:
